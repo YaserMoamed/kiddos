@@ -1,0 +1,10 @@
+.up {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  img {
+    width: 80px;
+    cursor: pointer;
+    z-index: 999;
+  }
+}
