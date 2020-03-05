@@ -1,9 +1,29 @@
 import React from "react";
-import Navbar from './Navbar'
 
 const Home = () => (
   <div className="App">
-   <Navbar />
+
+  
+   <div>
+      <div>
+          image 1
+          </div>
+             <div>
+          image 2
+            </div>
+              <div>
+          image 3
+               </div>
+                   </div>
+                   <div>
+                      <h1>last News</h1> 
+                        <div> 
+                         video 1 
+                            </div>
+                        <div>
+                          video 2 
+                          </div>
+                     </div>
   </div>
 );
 

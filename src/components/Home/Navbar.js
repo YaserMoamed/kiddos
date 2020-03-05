@@ -1,9 +1,6 @@
 import React from "react";
-import Home from './Home'
-import Corsi from '../contents/Corsi'
-import '../assets/Navbar.scss'
 import {
-  BrowserRouter as Router , Route, Link, Switch} from "react-router-dom";
+  BrowserRouter as Router , Link} from "react-router-dom";
 const  Navbar = () => {
   return (
     <Router>
@@ -14,19 +11,20 @@ const  Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/corsi">Coris</Link>
-            </li>
+              <Link to="/corsi">Corsi</Link>
+              </li>
+              <li>
+               <Link to="news">Blog</Link>
+               </li>
             <li>
               <Link to="/camp">Camp</Link>
             </li>
+            <li>
+              <Link to="/login">Accedi</Link>
+             </li>
           </ul>
         </nav>
     </div>
-     
-    <Switch>
-    <Route exact path="/" component={Home} />
-    <Route path="/corsi" component={Corsi} />
-        </Switch>
       </Router>
 
   )
