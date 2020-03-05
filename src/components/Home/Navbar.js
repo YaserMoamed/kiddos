@@ -1,4 +1,6 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
   BrowserRouter as Router , Link} from "react-router-dom";
 const  Navbar = () => {
@@ -14,7 +16,7 @@ const  Navbar = () => {
               <Link to="/corsi">Corsi</Link>
               </li>
               <li>
-               <Link to="news">Blog</Link>
+               <Link to="/news">Blog</Link>
                </li>
             <li>
               <Link to="/camp">Camp</Link>
