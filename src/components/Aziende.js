@@ -4,7 +4,7 @@ const Aziende = () => (
   <>
     <div className="Aziende">
       <div className="heading">
-        <h1 className="title">PER LE AZIENDE</h1>
+        <h1 className="burger">PER LE AZIENDE</h1>
       </div>
       <div className="offerta">
         <div className="grid">

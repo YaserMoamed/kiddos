@@ -34,22 +34,21 @@
       }
     }
   }
-}
+  .text {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1300px;
 
-.text {
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1300px;
-
-  p {
-    font-family: $font;
-    font-size: 20px;
-  }
-  img {
-    max-width: 1200px;
-    max-height: 600px;
-    margin-top: 100px;
+    p {
+      font-family: $font;
+      font-size: 20px;
+    }
+    img {
+      max-width: 1200px;
+      max-height: 600px;
+      margin-top: 100px;
+    }
   }
 }

@@ -7,13 +7,15 @@
     background-size: cover;
     min-height: 680px;
     justify-content: center;
-    .title {
+    h1 {
       display: flex;
       color: white;
       font-size: 96px;
       align-items: center;
       justify-self: center;
       z-index: 999;
+      font-family: $font;
+      font-weight: bold;
     }
   }
   .offerta {

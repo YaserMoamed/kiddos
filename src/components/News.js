@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const News = () => (
-  <>
+  <div className="criceto">
     <div className="news">
       <p className="title"> Ultime news</p>
       <div className="grid">
@@ -22,7 +22,7 @@ const News = () => (
         </div>
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default News;

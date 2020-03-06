@@ -2,7 +2,8 @@ import React from "react";
 
 const First = () => {
   const scrollBottom = () => {
-    window.scrollTo(20, document.body.scrollHeight);
+    const news = document.querySelector(".news");
+    news.scrollIntoView();
   };
 
   return (

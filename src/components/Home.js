@@ -1,8 +1,8 @@
 import React from "react";
-import First from "../First";
-import News from "../News";
-import Tutorials from "../Tutorials";
-import Recensioni from "../components/Recensioni";
+import First from "./First";
+import News from "./News";
+import Tutorials from "./Tutorials";
+import Recensioni from "./Recensioni";
 
 // import Navbar from './Navbar'
 
