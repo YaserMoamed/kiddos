@@ -1,0 +1,19 @@
+.Recensione{
+  display: grid;
+grid-template-columns: 1fr 2fr;
+  padding: 2em;
+  .d-block {
+    width: 300px;
+  height: auto;
+  }
+  .testo{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2em;
+  line-height: 150%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  padding-top: 0.5em;
+  
+  }
+}

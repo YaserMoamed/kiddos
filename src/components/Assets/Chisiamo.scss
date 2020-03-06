@@ -1,0 +1,29 @@
+.cont{
+  background-color: #FF4A4A;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  padding: 1em;
+.Titolo{
+  margin-top: 1em;
+}
+
+.Chisiamo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6em;
+  top: 0;
+
+  .profile {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    padding: 1em;
+  }
+  .Didascalia {
+  
+  }
+}
+}

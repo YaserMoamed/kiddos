@@ -6,6 +6,8 @@ import Aziende from "./components/Aziende";
 import Footer from "./components/Footer";
 import Article from "./components/Article";
 import Recensione from "./components/Recensione";
+import Corsi from "./components/Corsi";
+import Chisiamo from "./components/Chisiamo";
 import "./components/assets/styles.scss";
 import { Switch, Route } from "react-router-dom";
 
@@ -16,6 +18,8 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/camp" component={Camp} />
+      <Route path="/corsi" component={Corsi} />
+      <Route path="/chisiamo" component={Chisiamo} />
       <Route path="/aziende" component={Aziende} />
       <Route path="/article" component={Article} />
       <Route path="/recensione" component={Recensione} />
