@@ -1,0 +1,55 @@
+.articolo {
+  font-family: $font;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-top: 30px;
+  .titolo {
+    h1 {
+      font-size: 80px;
+      font-weight: bold;
+    }
+  }
+  .descr {
+    margin-top: 30px;
+    margin-right: 50px;
+
+    .tempo {
+      padding-bottom: 20px;
+      p {
+        font-size: 36px;
+        font-weight: bold;
+        background-color: $red-color;
+        border-radius: 10px;
+        color: white;
+        padding: 20px 30px;
+        text-align: center;
+      }
+    }
+    .icone {
+      img {
+        width: 120px;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.text {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1300px;
+
+  p {
+    font-family: $font;
+    font-size: 20px;
+  }
+  img {
+    max-width: 1200px;
+    max-height: 600px;
+    margin-top: 100px;
+  }
+}
