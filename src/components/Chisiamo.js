@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Chisiamo = () => (
-  <div className="container">
+  <div className="cont">
     <h1 className="Titolo">Chi Siamo</h1>
 
     <div className="Chisiamo">
