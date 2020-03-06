@@ -1,32 +1,50 @@
-// import React from "react";
-// import Home from "./Home";
-// import Corsi from "../contents/Corsi";
-// import "../assets/Navbar.scss";
-// import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-// const Navbar = () => {
-//   return (
-//     // <Router>
-//     <div className="container">
-//       <nav>
-//         <ul>
-//           <li>
-//             <Link to="/">Home</Link>
-//           </li>
-//           <li>
-//             <Link to="/corsi">Corsi</Link>
-//           </li>
-//           <li>
-//             <Link to="/camp">Camp</Link>
-//           </li>
-//         </ul>
-//       </nav>
-//     </div>
+import React from "react";
 
-//     /* <Switch>
-//     <Route exact path="/" component={Home} />
-//     <Route path="/corsi" component={Corsi} />
-//         </Switch> */
-//     /* </Router> */
-//   );
-// };
-// export default Navbar;
+import "../assets/Navbar.scss";
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Switch
+} from "react-router-dom";
+const Navbar = () => {
+  return (
+    // <Router>
+    <div className="container">
+      <nav>
+        <NavLink exact to="/" activeClassName="active">
+          <img src="/pittogramma.png" alt="logo" />
+        </NavLink>
+        <ul>
+          <li>
+            <NavLink to="/corsi" activeClassName="active">
+              CORSI
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/camp" activeClassName="active">
+              CAMP
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/aziende" activeClassName="active">
+              PER LE AZIENDE
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/chi-siamo" activeClassName="active">
+              CHI SIAMO
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    /* <Switch>
+    <Route exact path="/" component={Home} />
+    <Route path="/corsi" component={Corsi} />
+        </Switch> */
+    /* </Router> */
+  );
+};
+export default Navbar;

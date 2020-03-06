@@ -1,0 +1,33 @@
+.first {
+  .algo {
+    background-image: url("/svg/circles.svg");
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 800px;
+      justify-self: center;
+      align-self: center;
+    }
+    p {
+      font-family: $font;
+      font-size: 64px;
+      font-weight: bold;
+    }
+  }
+  .arrow-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .arrow {
+      width: 100px;
+      cursor: pointer;
+    }
+  }
+}
