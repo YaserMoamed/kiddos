@@ -1,28 +1,28 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../assets/Home.scss'
 const Home = () => (
   <div className="Home">
+  <div className="jumbotron bg-white">
+  <h1 className="display-4 text-center">Kiddos</h1>
+</div>
+{/* scrool down */}
+<section id="pagescroll" class="scroll">
+  <a href="#section2"><span></span>Scroll</a>
+</section>
+ <div className="container" id="section2">
   <div className="row">
-      <div className="col-sm">
-          image 1
-          </div>
-             <div className="col-sm">
-          image 2
-            </div>
-              <div className="col-sm">
-          image 3
-               </div>
-                   </div>
-                   <div>
-                      <h1>last News</h1> 
-                        <div className="col-sm-4"> 
-                         video 1 
-                            </div>
-                        <div className="col-sm-4">
-                          video 2 
-                          </div>
-                     </div>
-                     </div>
+    <div className="column">
+    <img src="https://i.imgur.com/jESF2.jpg" alt="Mountains" style={{width:"300px" , height: "300px" }} />
+      </div>
+      <div className="column">
+      <img src="https://i.imgur.com/jESF2.jpg" alt="Mountains" style={{width:"300px" , height: "300px" }} />
+      </div>
+        <div className="column">
+        <img src="https://i.imgur.com/jESF2.jpg" alt="Mountains" style={{width:"300px" , height: "300px" }} />
+        </div>
+  </div>
+     </div>
+     </div>
 );
 
 export default Home;

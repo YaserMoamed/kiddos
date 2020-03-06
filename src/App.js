@@ -10,6 +10,7 @@ import {
   BrowserRouter as Router , Route, Link, Switch} from "react-router-dom";const App = () => (
   <div className="app">
      <Navbar />
+     <Router>
     <Switch>
     <Route exact path="/" component={Home} />
     <Route path="/corsi" component={Corsi} />
@@ -17,6 +18,7 @@ import {
     <Route path="/camp" component={Camp} />
     <Route path="/login" component={Login}/>
         </Switch>
+        </Router>
   </div>
 );
 
