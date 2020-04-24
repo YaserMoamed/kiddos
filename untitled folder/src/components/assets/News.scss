@@ -1,0 +1,30 @@
+.criceto {
+  .news {
+    margin-top: 100px;
+
+    .title {
+      font-family: $font;
+      font-size: 60px;
+      margin-left: 90px;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 22%);
+      grid-gap: 2rem;
+      padding-bottom: 50px;
+      margin-left: 90px;
+
+      .grid-item {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        img {
+          width: 350px;
+          height: 450px;
+        }
+      }
+    }
+  }
+}

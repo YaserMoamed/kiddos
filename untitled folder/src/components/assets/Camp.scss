@@ -1,0 +1,127 @@
+.camp {
+  font-family: $font;
+  .heading {
+    background-image: url("/bambini.jpg");
+    min-height: 678px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .what {
+    background-color: $red-color;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    min-height: 380px;
+    p {
+      justify-content: space-evenly;
+      // align-items: center;
+      font-size: 45px;
+      padding: 30px;
+      align-self: center;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+  .argomenti {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      color: $red-color;
+      font-weight: 900;
+    }
+
+    .container {
+      padding: 50px;
+      margin-right: 25%;
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        grid-gap: 3rem;
+        padding-bottom: 70px;
+
+        .grid-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          img {
+            width: 200px;
+            margin-top: 150px;
+          }
+          p {
+            padding-top: 20px;
+            font-size: 36px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .day {
+    background-color: $red-color;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+    img {
+      width: 40%;
+
+      align-self: center;
+      padding-bottom: 150px;
+    }
+  }
+  .contact {
+    margin-top: 120px;
+    position: relative;
+    .contattaci {
+      font-size: 55px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  .titolo {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    input {
+      height: 40px;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 30px;
+      border-width: medium;
+      border-color: black;
+      &::placeholder {
+        font-family: $font;
+        font-size: 16px;
+      }
+    }
+    textarea {
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 30px;
+      border-width: medium;
+      &::placeholder {
+        font-family: $font;
+        font-size: 16px;
+      }
+    }
+  }
+}

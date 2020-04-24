@@ -1,0 +1,94 @@
+.elefante {
+  .Corsi {
+    background-color: $red-color;
+    min-height: 686px;
+    font-family: $font;
+    text-align: center;
+    padding-left: 7em;
+    padding-right: 7em;
+
+    .Titolo {
+      padding: 1em;
+      color: white;
+      font-weight: bold;
+    }
+
+    .due {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .p-grey {
+        color: grey;
+      }
+
+      .box {
+        padding: 2em;
+        width: 450px;
+        height: 500px;
+        background-color: white;
+        border-radius: 5px;
+
+        .row {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          padding-left: 1em;
+          padding-right: 1em;
+          padding-bottom: 10px;
+
+          .column {
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+  .esaurimento {
+    font-family: $font;
+    .grid {
+      padding-top: 2em;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 7em;
+      padding-right: 7em;
+      padding-bottom: 2em;
+
+      .grid-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 450px;
+
+        button {
+          background-color: $red-color;
+          font-family: $font;
+          color: white;
+          border-radius: 20px;
+          width: 295px;
+          height: 45px;
+          border: none;
+          font-size: 24px;
+          font-weight: 700;
+
+          text-align: center;
+        }
+
+        p {
+          padding: 1em;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          color: gray;
+          font-family: $font;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

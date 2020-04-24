@@ -1,0 +1,33 @@
+.all {
+  display: flex;
+  background-color: black;
+  min-height: 180px;
+  justify-content: space-between;
+  .footer {
+    display: flex;
+    color: white;
+    img {
+      width: 180px;
+    }
+    a {
+      align-self: center;
+    }
+  }
+  .social {
+    display: flex;
+
+    a {
+      color: white;
+      justify-content: flex-end;
+      align-self: flex-end;
+      margin-right: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}

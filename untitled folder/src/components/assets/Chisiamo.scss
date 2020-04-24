@@ -1,0 +1,33 @@
+.cont {
+  background-color: $red-color;
+  font-family: $font;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  .Titolo {
+    margin-top: 1em;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .Chisiamo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6em;
+    top: 0;
+    p {
+      font-size: 30px;
+    }
+
+    .profile {
+      border-radius: 50%;
+      width: 300px;
+      height: auto;
+      padding: 1em;
+    }
+    .Didascalia {
+    }
+  }
+}

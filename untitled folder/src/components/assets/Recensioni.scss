@@ -1,0 +1,47 @@
+.maiale {
+  .title {
+    font-family: $font;
+    font-size: 60px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  .Recensione {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2em;
+    .d-block {
+      width: 300px;
+      height: auto;
+    }
+    .testo {
+      font-family: $font;
+      padding-left: 2em;
+      line-height: 150%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding-top: 0.5em;
+      h2 {
+        font-weight: bold;
+      }
+    }
+  }
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+
+  a:active {
+    color: black;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+}
